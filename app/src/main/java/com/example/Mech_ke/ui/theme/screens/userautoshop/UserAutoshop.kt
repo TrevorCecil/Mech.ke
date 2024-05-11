@@ -54,6 +54,7 @@ import coil.compose.rememberAsyncImagePainter
 import com.example.Mech_ke.R
 import com.example.Mech_ke.data.TestViewModel
 import com.example.Mech_ke.models.Autoshop
+import com.example.Mech_ke.navigation.WEBVIEW_URL
 import com.example.Mech_ke.ui.theme.newBlue
 import com.example.Mech_ke.ui.theme.newWhite
 
@@ -329,7 +330,7 @@ fun UserViewItem(name:String,contact:String, county:String, town:String, id:Stri
         }
         Spacer(modifier = Modifier.height(5.dp))
 
-        Button(onClick = { /*TODO*/ },
+        Button(onClick = { navController.navigate(WEBVIEW_URL) },
             shape = RoundedCornerShape(5.dp),
             colors = ButtonDefaults.buttonColors(newWhite),
             modifier = Modifier
