@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.wazitoecommerce"
+    namespace = "com.example.Mech_ke"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.wazitoecommerce"
+        applicationId = "com.example.Mech_ke"
         minSdk = 21
         targetSdk = 34
         versionCode = 1
